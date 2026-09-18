@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Gestão de Produtos</title><link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="login-body">
+  <main class="login-card">
+    <img src="/assets/logo-cliente.svg" class="logo" alt="Logo do cliente parceiro">
+    <h1>Acesso ao Sistema</h1><p class="subtitulo">Entre com suas credenciais.</p>
+    <form id="loginForm">
+      <label for="email">E-mail</label><input id="email" type="email" autocomplete="username" required>
+      <label for="senha">Senha</label><input id="senha" type="password" autocomplete="current-password" required minlength="8">
+      <button class="btn principal" type="submit">Entrar</button>
+    </form>
+    <div id="mensagem" class="mensagem" aria-live="polite"></div>
+  </main>
+  <script src="/js/login.js"></script>
+</body>
+</html>

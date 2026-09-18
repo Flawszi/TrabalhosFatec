@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="54" viewBox="0 0 180 54" role="img" aria-label="Logo do cliente parceiro">
+  <rect width="180" height="54" rx="10" fill="#ffffff"/>
+  <rect x="8" y="8" width="38" height="38" rx="9" fill="#2563eb"/>
+  <path d="M18 28h18M27 19v18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="55" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2937">CLIENTE</text>
+  <text x="55" y="41" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#2563eb">PARCEIRO</text>
+</svg>
